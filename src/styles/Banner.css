@@ -15,7 +15,7 @@
     border-radius: 8px;
     padding: 10px;
     text-decoration: none;
-    width: 50%; /* Full width for consistency */
+    width: 100%; /* Full width for consistency */
   }
   
   .banner img {
