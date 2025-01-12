@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/SearchBar.css"; // Assuming the CSS file is named styles.css
+import "../styles/SearchBar.css"; // Assuming the CSS file is named styles.css
 
 const SearchBar = () => {
   return (

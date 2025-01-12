@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./styles/FeaturedHealthCheckupRenderer.css"; // Import CSS for styling
+import "../styles/FeaturedHealthCheckupRenderer.css"; // Import CSS for styling
 
 const FeaturedHealthCheckupRenderer = ({ apiUrl }) => {
   const [packages, setPackages] = useState([]);

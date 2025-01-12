@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./styles/Banner.css"; // Import the CSS file for the banner styles
+import "../styles/Banner.css"; // Import the CSS file for the banner styles
 
 const DynamicBannerRenderer = ({ apiUrl }) => {
   const [banners, setBanners] = useState([]);

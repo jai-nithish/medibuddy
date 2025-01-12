@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./styles/BengaluruHealthCheckPackages.css"; // Import CSS for styling
+import "../styles/BengaluruHealthCheckPackages.css"; // Import CSS for styling
 
 const BengaluruHealthCheckPackages = ({ apiUrl }) => {
   const [bengaluruPackages, setBengaluruPackages] = useState([]); // State to store the fetched packages

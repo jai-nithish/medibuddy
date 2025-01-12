@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./styles/LifestyleHealthCheckupRenderer.css"; // Import CSS for styling
+import "../styles/LifestyleHealthCheckupRenderer.css"; // Import CSS for styling
 
 const LifestyleHealthCheckupRenderer = ({ apiUrl }) => {
   const [lifestylePackages, setLifestylePackages] = useState([]);

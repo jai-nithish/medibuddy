@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./styles/UserFeedback.css"; // Import CSS for styling
+import "../styles/UserFeedback.css"; // Import CSS for styling
 
 const UserFeedback = ({ apiUrl }) => {
   const [userFeedbacks, setUserFeedbacks] = useState([]); // State to store user feedback data

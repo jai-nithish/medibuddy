@@ -1,0 +1,60 @@
+.trusted-section {
+    background-color: #f9fafe;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trusted-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .trusted-header h2 {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #050a4e;
+  }
+  
+  .trusted-header .highlight {
+    color: #0071e3;
+  }
+  
+  .shield-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .trusted-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+  }
+  
+  .stat-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .stat-item p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+  }
+  

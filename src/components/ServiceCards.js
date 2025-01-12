@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./styles/ServiceCards.css";
+import "../styles/ServiceCards.css";
 
 const ServiceCards = ({ apiUrl }) => {
   const [services, setServices] = useState([]); // State to store the services data

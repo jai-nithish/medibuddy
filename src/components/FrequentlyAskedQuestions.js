@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./styles/FrequentlyAskedQuestions.css";
+import "../styles/FrequentlyAskedQuestions.css";
 
 const FrequentlyAskedQuestions = ({ apiUrl }) => {
   const [faqs, setFaqs] = useState([]); // State to store FAQ data

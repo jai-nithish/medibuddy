@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./styles/DynamicIconRenderer.css";
+import "../styles/DynamicIconRenderer.css";
 const DynamicIconRenderer = ({ apiUrl }) => {
   const [icons, setIcons] = useState([]);
   const [loading, setLoading] = useState(true);
