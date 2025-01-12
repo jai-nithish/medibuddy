@@ -1,0 +1,57 @@
+.lifestyle-health-checkups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .lifestyle-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .lifestyle-package-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .lifestyle-package-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .lifestyle-package-card h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #050a4e;
+  }
+  
+  .carousel-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .carousel-buttons button {
+    padding: 8px 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    background-color: #1778f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .carousel-buttons button:hover {
+    background-color: #145bb1;
+  }
+  

@@ -1,0 +1,72 @@
+/* Service Cards Container */
+.service-cards {
+  display: flex;
+  flex-direction: column  ; /* Align items horizontally */
+  justify-content:center ; /* Center the cards horizontally */
+  align-items: left; /* Align items to the top */
+  gap: 20px; /* Space between cards */
+  padding: 20px; /* Padding around the container */
+  overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+  width: 100%; /* Make sure it spans the full width of the screen/container */
+  box-sizing: border-box; /* Ensure padding doesn't affect width calculation */
+  margin-top: 40px; /* Space above the cards */
+}
+
+/* Individual Service Card */
+.service-card {
+  width: 250px; /* Fixed width for each card */
+  height: 350px; /* Fixed height for each card */
+  background-color: #fff; /* White background for the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+  display: flex;
+  flex-direction: column; /* Stack the image and text vertically */
+  align-items: center; /* Center content horizontally inside the card */
+  padding: 10px; /* Padding inside the card */
+}
+
+/* Image Styling */
+.service-card-img {
+  width: 100%; /* Make the image take the full width of the card */
+  height: 200px; /* Fixed height for the image */
+  object-fit: contain; /* Ensure the image fits the container without distortion */
+  border-radius: 8px; /* Rounded corners for the image */
+}
+
+/* Content inside the Card */
+.service-card-content {
+  width: 100%; /* Make the text content take the full width */
+  text-align: center; /* Center the text inside the card */
+}
+
+/* Title Styling */
+.service-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0; /* Space between title and subtitle */
+}
+
+/* Subtitle Styling */
+.service-card h4 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 5px 0; /* Space between subtitle and text */
+}
+
+/* Paragraph Styling */
+.service-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Title for the service section */
+.title {
+  font-family: 'Lexend Deca', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px; /* Identical to box height */
+  color: #050A4E;
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+}
