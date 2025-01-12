@@ -40,7 +40,7 @@ const FeaturedHealthCheckupRenderer = ({ apiUrl }) => {
 
   return (
     <div className="featured-health-checkups">
-      <h2>Featured Health Check-up Packages</h2>
+      <h2 className="title">Featured Health Check-up Packages</h2>
       {packages.length > 0 ? (
         <div className="package-carousel">
           <div className="package-card">

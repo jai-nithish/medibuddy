@@ -39,7 +39,7 @@ const FrequentlyAskedQuestions = ({ apiUrl }) => {
 
   return (
     <div className="frequently-asked-questions">
-      <h2>Frequently Asked Questions</h2>
+      <h2 className="title">Frequently Asked Questions</h2>
       {faqs.length > 0 ? (
         <div className="faq-list">
           {faqs.map((faq) => (

@@ -28,7 +28,7 @@ const BengaluruHealthCheckPackages = ({ apiUrl }) => {
 
   return (
     <div className="bengaluru-health-checkups">
-      <h2>Book Health Check Packages in Bengaluru</h2>
+      <h2 className="title">Book Health Check Packages in Bengaluru</h2>
       {bengaluruPackages.length > 0 ? (
         <div className="bengaluru-packages-list">
           {bengaluruPackages.map((pkg) => (

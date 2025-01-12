@@ -41,7 +41,7 @@ const LifestyleHealthCheckupRenderer = ({ apiUrl }) => {
 
   return (
     <div className="lifestyle-health-checkups">
-      <h2>LifeStyle Health Check Packages</h2>
+      <h2 className="title">LifeStyle Health Check Packages</h2>
       {lifestylePackages.length > 0 ? (
         <div className="lifestyle-carousel">
           <div className="lifestyle-package-card">
