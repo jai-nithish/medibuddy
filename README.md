@@ -90,6 +90,9 @@ This app can be deployed on any hosting platform. Below are deployment steps for
    - Drag and drop the `build` folder into the Netlify dashboard.
    - Alternatively, connect your GitHub repository and set the build command to `npm run build` with a publish directory of `build`.
 
+2. **Deployed Site**:
+   - Using Netlify deployed it onto the master branch
+    https://medibuddyhealth.netlify.app/
 ---
 
 ## Contributing
