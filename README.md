@@ -1,4 +1,4 @@
-# React Dynamic API Renderer
+# React Dynamic API Renderer (Souce code - Master Branch)
 
 This is a React project that fetches data dynamically from the following API:  
 `https://677f757b0476123f76a68a42.mockapi.io/api/labs/v1/page_config`.  
