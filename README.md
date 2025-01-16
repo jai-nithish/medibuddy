@@ -20,6 +20,43 @@ The data is then rendered and displayed on a website, including various sections
 
 The project directory includes the following key files and folders:
 
+ ```
+ | src/
+   | ├── components/ 
+                 - | ├── BengaluruHealthCheckPackages.js 
+                  | ├── DynamicBannerRenderer.js 
+                  | ├── DynamicIconRenderer.js 
+                  | ├── FeaturedHealthCheckupRenderer.js 
+                  | ├── FrequentlyAskedQuestions.js 
+                  | ├── LabSafetyFeatures.js 
+                  | ├── LifestyleHealthCheckupRenderer.js 
+                  | ├── SearchBar.js 
+                  | ├── ServiceCards.js 
+                  | ├── TrustedBySection.js 
+                  | ├── UserFeedback.js 
+  | ├── styles/ 
+                  | ├── App.css 
+                  | ├── Banner.css 
+                  | ├── BengaluruHealthCheckPackages.css 
+                  | ├── DynamicIconRenderer.css 
+                  | ├── FeaturedHealthCheckupRenderer.css 
+                  | ├── FrequentlyAskedQuestions.css 
+                  | ├── LifestyleHealthCheckupRenderer.css 
+                  | ├── SearchBar.css 
+                  | ├── ServiceCards.css 
+                  | ├── TrustedBySection.css 
+                  | ├── UserFeedback.css 
+                  | ├── swiper.css 
+    ├── App.js 
+    ├── App.test.js 
+    ├── api.js 
+    ├── index.css 
+    ├── index.js 
+    ├── logo.svg 
+    ├── reportWebVitals.js 
+    ├── setupTests.js
+ ```
+
 ### **Source Folder (`src`)**
 
 - **`App.js`**: Entry point for the app, which integrates all components.
